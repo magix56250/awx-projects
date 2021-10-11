@@ -2,5 +2,5 @@
   - hosts: server
     tasks:
         
-      - name: ping test google
-        command: ping 8.8.8.8
+      - name: test de type test
+        command: cd /data/ | touch chibre.txt
