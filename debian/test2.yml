@@ -3,4 +3,4 @@
     tasks:
         
       - name: test de type test
-        command: cd /data/ | touch chibre.txt
+        command: touch /data/chibre
