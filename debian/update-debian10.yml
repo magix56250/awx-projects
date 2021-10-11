@@ -1,8 +1,8 @@
 ---
   - hosts: server
     tasks:
-      - name: delete test file named xdlol
-        command: rm /data/xdmdr
+   #   - name: delete test file named xdlol
+   #     command: rm /data/xdmdr
         
       - name: touch file
         command: touch /data/xdmdr.txt
