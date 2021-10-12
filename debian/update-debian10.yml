@@ -2,6 +2,6 @@
   - hosts: server
     tasks:
       - name: check update yum CentOS
-        command: yum check-update
+        command: apt update
         
   
