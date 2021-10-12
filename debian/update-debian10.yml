@@ -1,14 +1,7 @@
 ---
   - hosts: server
     tasks:
-   #   - name: delete test file named xdlol
-   #     command: rm /data/xdmdr
+      - name: check update yum CentOS
+        command: yum check-update
         
-      - name: touch file
-        command: touch /data/xdmdr.txt
-        
-      - name: deplacement
-        command:  cd /data/
-        
-      - name: ecriture 
-        command: echo "testeur1337" >> xdmdr.txt
+  
