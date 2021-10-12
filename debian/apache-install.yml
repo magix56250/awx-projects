@@ -1,0 +1,15 @@
+---
+  - hosts: server
+    tasks:
+        
+     # - name: install apache
+     #   apt: name=apache2
+     # - name: install php
+     #   apt: name=php
+     
+     
+      - name: install apache php
+        apt: name={{ item }}
+        with_items:
+          - apache2
+          - php

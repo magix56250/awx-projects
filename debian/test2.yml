@@ -1,6 +1,0 @@
----
-  - hosts: server
-    tasks:
-        
-      - name: test de type test
-        command: touch /data/chibre
