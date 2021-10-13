@@ -8,8 +8,8 @@
     apache_create_vhosts: true
     apache_vhosts_filename: "vhosts.conf"
     apache_vhosts:
-      - servername: "example.com"
-        documentroot: "/var/www/vhosts/example_com"
+      - servername: "web.fr"
+        documentroot: "/var/www/vhosts/web_fr"
 
   pre_tasks:
     - name: Update apt cache.
